@@ -4,15 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Restrictions {
-<<<<<<< HEAD
 	public void str(String str) {
         String str1="where";
-=======
-	
-	Scanner sc=new Scanner(System.in);
-	public void str(String str) {
-        String str1=sc.nextLine();
->>>>>>> 8db063764b6c23c182eebfdffab171f42216da0c
         int quit_position = str.indexOf(str1);
         if (quit_position >= 0) {
             System.out.println(str.substring(0, quit_position));
