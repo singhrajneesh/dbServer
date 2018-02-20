@@ -4,10 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Restrictions {
-	
-	Scanner sc=new Scanner(System.in);
 	public void str(String str) {
-        String str1=sc.nextLine();
+        String str1="where";
         int quit_position = str.indexOf(str1);
         if (quit_position >= 0) {
             System.out.println(str.substring(0, quit_position));
