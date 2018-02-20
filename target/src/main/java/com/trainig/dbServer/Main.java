@@ -6,12 +6,7 @@ import java.util.*;
 public class Main {
 
 	public static void main(String[] args) throws IOException {
-<<<<<<< HEAD
         String str="select * from ipl.csv where season > 2016 and city= 'Bangalore' order by win_by_runs";
-=======
-		Scanner sc=new Scanner(System.in);
-        String str=sc.nextLine();
->>>>>>> 8db063764b6c23c182eebfdffab171f42216da0c
         QuerySelector query=new QuerySelector();
         query.tokenize(str);
         ArrayList<String> s=query.CSV(str);

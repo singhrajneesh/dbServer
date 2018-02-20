@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class ReaderFile
 {
 	public void method() throws IOException {
-	  File file = new File("ipl.csv");
+	  File file = new File("csvFile/ipl.csv");
 	  BufferedReader br = new BufferedReader(new FileReader(file));
 	  String header[]=null;
 	  String line,temp = "";
