@@ -5,7 +5,7 @@ import java.util.regex.*;
 public class DateFind
 {
 	public void Date() throws IOException {
-	  File file = new File("csvFile/ipl.csv");
+	  File file = new File("ipl.csv");
 	  BufferedReader br = new BufferedReader(new FileReader(file));
 	  String header[]=null;
 	  String line,temp = "";
